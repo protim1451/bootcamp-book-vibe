@@ -18,8 +18,9 @@ const Header = () => {
         <li><NavLink to="/" onClick={closeDropdown}>Home</NavLink></li>
         <li><NavLink to="/listedbooks" onClick={closeDropdown}>Listed Books</NavLink></li>
         <li><NavLink to="/pagestoread" onClick={closeDropdown}>Pages to read</NavLink></li>
-        <li><NavLink to="/topbooks" onClick={closeDropdown}>Top Books</NavLink></li>
-        <li><NavLink to="/review" onClick={closeDropdown}>Submit Review</NavLink></li>
+        <li><NavLink to="/topbooks" onClick={closeDropdown}>Blog</NavLink></li>
+        <li><NavLink to="/review" onClick={closeDropdown}>About</NavLink></li>
+        <li><NavLink to="/review" onClick={closeDropdown}>FAQ</NavLink></li>
     </>
 
     return (
@@ -43,7 +44,7 @@ const Header = () => {
                 </div>
                 <div className="navbar-end gap-1">
                     <a className="btn text-white bg-[#17BE0A]">Sign In</a>
-                    <a className="btn text-white bg-[#59C6D2]">Sign Up</a>
+                    <a className="btn text-white bg-[#59C6D2]">Buy Book</a>
                 </div>
             </div>
         </div>
