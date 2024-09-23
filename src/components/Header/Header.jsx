@@ -19,8 +19,8 @@ const Header = () => {
         <li><NavLink to="/listedbooks" onClick={closeDropdown}>Listed Books</NavLink></li>
         <li><NavLink to="/pagestoread" onClick={closeDropdown}>Pages to read</NavLink></li>
         <li><NavLink to="/topbooks" onClick={closeDropdown}>Blog</NavLink></li>
-        <li><NavLink to="/review" onClick={closeDropdown}>About</NavLink></li>
-        <li><NavLink to="/review" onClick={closeDropdown}>FAQ</NavLink></li>
+        <li><NavLink to="/about" onClick={closeDropdown}>About</NavLink></li>
+        <li><NavLink to="/faq" onClick={closeDropdown}>FAQ</NavLink></li>
     </>
 
     return (
