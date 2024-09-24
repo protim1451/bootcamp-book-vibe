@@ -43,7 +43,7 @@ const BookDetails = () => {
             storageData.push(book);
             localStorage.setItem(storageKey, JSON.stringify(storageData));
             setIsAddedToWishlist(true);
-            toast.success(`Book added to your cart.`);
+            toast.success(`Book ID: ${book.bookId} - "${book.bookName}" added to your cart.`);
         }
     };
 
