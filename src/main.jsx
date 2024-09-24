@@ -14,6 +14,7 @@ import BookDetails from './components/BookDetails/BookDetails';
 import About from './components/About/About';
 import TopBooks from './components/TopBooks/TopBooks';
 import FAQ from './components/Faq/Faq';
+import ListedBooks from './components/ListedBooks/ListedBooks';
 
 const router = createBrowserRouter([
   {
@@ -42,7 +43,11 @@ const router = createBrowserRouter([
       {
         path: "/faq",
         element: <FAQ></FAQ>
-      }
+      },
+      {
+        path: "/listedbooks",
+        element: <ListedBooks></ListedBooks>
+      },
     ]
   },
 ]);
