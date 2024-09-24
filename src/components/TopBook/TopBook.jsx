@@ -4,7 +4,7 @@ const TopBook = ({book}) => {
         yearOfPublishing} = book;
     return (
         <div>
-            <div class="card bg-base-100 shadow-xl mt-4">
+            <div class="card bg-[#C2EBEE] shadow-xl mt-4">
                 <div class="card-body">
                     <h2 class="card-title"> <span className="font-bold">Book Name:</span> {bookTitle}({category})</h2>
                     <p><span className="font-bold">Publishing year: </span>{yearOfPublishing}</p>

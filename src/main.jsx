@@ -15,6 +15,7 @@ import About from './components/About/About';
 import TopBooks from './components/TopBooks/TopBooks';
 import FAQ from './components/Faq/Faq';
 import ListedBooks from './components/ListedBooks/ListedBooks';
+import PagesToRead from './components/PagesToRead/PagesToRead';
 
 const router = createBrowserRouter([
   {
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
         path: "/listedbooks",
         element: <ListedBooks></ListedBooks>
       },
+      {
+        path: "/pagestoread",
+        element: <PagesToRead></PagesToRead>
+      }
     ]
   },
 ]);
