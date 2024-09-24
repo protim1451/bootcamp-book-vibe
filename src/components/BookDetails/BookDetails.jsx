@@ -33,12 +33,12 @@ const BookDetails = () => {
                 return;
             }
 
-            const readBooks = JSON.parse(localStorage.getItem('readBooks')) || [];
-            const isBookInReadList = readBooks.some(item => item.bookId === idInt);
-            if (isBookInReadList) {
-                toast.error(`Book ID: ${book.bookId} - "${book.bookName}" is already in your read list. You cannot add it to the cart.`);
-                return;
-            }
+            // const readBooks = JSON.parse(localStorage.getItem('readBooks')) || [];
+            // const isBookInReadList = readBooks.some(item => item.bookId === idInt);
+            // if (isBookInReadList) {
+            //     toast.error(`Book ID: ${book.bookId} - "${book.bookName}" is already in your read list. You cannot add it to the cart.`);
+            //     return;
+            // }
 
             storageData.push(book);
             localStorage.setItem(storageKey, JSON.stringify(storageData));
