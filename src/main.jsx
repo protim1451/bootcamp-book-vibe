@@ -13,6 +13,7 @@ import Home from './components/Home/Home';
 import BookDetails from './components/BookDetails/BookDetails';
 import About from './components/About/About';
 import TopBooks from './components/TopBooks/TopBooks';
+import FAQ from './components/Faq/Faq';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
         element: <TopBooks></TopBooks>,
         loader: () => fetch('../topbook.json'),
       },
+      {
+        path: "/faq",
+        element: <FAQ></FAQ>
+      }
     ]
   },
 ]);
