@@ -87,12 +87,12 @@ const ListedBooks = () => {
                 <button className={selectedTab === 'read' ? 'active' : ''}
                     style={{ backgroundColor: selectedTab === 'read' ? '#1313130D' : 'inherit' }}
                     onClick={() => setSelectedTab('read')}>
-                    Read Books
+                   Wish to Read Books
                 </button>
                 <button className={selectedTab === 'wishlist' ? 'active' : ''}
                     style={{ backgroundColor: selectedTab === 'wishlist' ? '#1313130D' : 'inherit' }}
                     onClick={() => setSelectedTab('wishlist')}>
-                    Wishlist Books
+                    Added to cart Books
                 </button>
             </div>
             <div className="book-list">
